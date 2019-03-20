@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header></header>
+<main>
+    <div class="form">
+        <form id="form" action="" method="post">
+            <div class="elementsForm">
+                <div class="question">
+                    <label for="question" class="labelQuestion">Вопрос:</label>
+                    <div class="inputsQuestion">
+                        <input type="text" name="question" id="question" size="50" class="inputClear addArray">
+                        <input type="submit" value="X" class="clear">
+                    </div>
+                </div>
+                <div>
+                    <label for="typeQuestion" class="typeQuestion">Тип ответа</label>
+                    <select id="typeQuestion">
+                        <option value="Один верный">Один верный</option>
+                        <option value="Множественный выбор">Множественный выбор</option>
+                    </select>
+                </div>
+                <div class="BlockAnswer">
+                    <div class="PFromAnswer">
+                        <p>Ответы</p>
+                        <p>Верный</p>
+                    </div>
+                    <div class="Answer" >
+                        <div class="divAnswer">
+                            <label class="labelAnswer">1)</label><input type="text" name="question" class="inputTextQuestion addArray"><input type="radio" name="questionBlock" id="answer1" class="addArray"><input type="submit" value="X" class="deleteAnswer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input class="AddNewAnswer" type="submit" value="+" >
+                <div class="buttonSubmit">
+                <input type="submit" class="submit" value="Готово">
+            </div>
+        </form>
+    </div>
+</main>
+<footer></footer>
+<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
