@@ -27,7 +27,7 @@ $(document).ready(function() {
         event.preventDefault();
      });
 
-//
+
     $('.AddNewAnswer').click(function(event) {
 
         addDynamicExtraField();
@@ -54,8 +54,7 @@ $(document).ready(function() {
         var inputRadio = $('<input/>', {
             type: 'radio',
             name : 'questionBlock',
-            'class' : 'addArray',
-            }).appendTo(div);
+        }).appendTo(div);
 
         var inputDel = $('<input/>', {
             type: 'submit',
